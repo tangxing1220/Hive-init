@@ -1,0 +1,8 @@
+# 18. Find the command that kills ssh service(BLUE)
+#
+# It is stop the SSH service.
+# sudo service ssh stop
+ 
+sudo pkill ssh
+
+# It kills the process of SSH service.

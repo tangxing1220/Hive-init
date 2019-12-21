@@ -1,0 +1,26 @@
+# 10. Identify the network devices between you computer and the slash16.org domain(BLUE)
+
+traceroute slash16.org
+
+# man traceroute: print the route packets take to network host
+# [xtang@c2r1p3]/etc>traceroute slash16.org
+# traceroute: Warning: slash16.org has multiple addresses; using 13.33.242.215
+# traceroute to slash16.org (13.33.242.215), 64 hops max, 52 byte packets
+# 1  10.12.254.254 (10.12.254.254)  0.950 ms  0.466 ms  0.402 ms
+# 2  nat (10.60.1.1)  0.196 ms  0.173 ms  0.154 ms
+# 3  194.136.126.33 (194.136.126.33)  0.849 ms  8.793 ms  0.950 ms
+# 4  10.234.98.109 (10.234.98.109)  0.416 ms  0.468 ms  0.530 ms
+# 5  193.229.29.206 (193.229.29.206)  1.118 ms  5.241 ms  1.544 ms
+# 6  213.192.186.81 (213.192.186.81)  0.673 ms  0.933 ms  0.578 ms
+# 7  99.82.183.10 (99.82.183.10)  0.770 ms  0.911 ms  0.759 ms
+# 8  52.93.81.56 (52.93.81.56)  3.720 ms
+#    52.93.81.72 (52.93.81.72)  2.116 ms  1.659 ms
+# 9  52.93.104.49 (52.93.104.49)  1.463 ms
+#    52.93.104.57 (52.93.104.57)  1.406 ms
+#    52.93.104.61 (52.93.104.61)  11.315 ms
+# 10  * * *
+# 11  * * *
+# 12  * * *
+# 13  * * *
+# 14  * * *
+# 15  server-13-33-242-215.hel50.r.cloudfront.net (13.33.242.215)  0.923 ms  0.876 ms  0.826 ms

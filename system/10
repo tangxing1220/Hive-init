@@ -1,0 +1,8 @@
+# 10. Name the command that lists the partition tables of drives?(BLUE)
+
+fdisk -l
+
+# man fdisk: manipulate disk partition table. 
+# -l --list : List the partition tables for the specified devices and then exit. 
+# If no devices are given, those memtioned in /proc/partitions(if that exists)
+# are used.

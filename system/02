@@ -1,0 +1,10 @@
+# 02. What command can you use to rename your system?(BLEU)
+
+hostname new_name
+
+# Hostname is used to display the system's DNS(Domain Name System) name.
+# $>hostname
+# debian
+# $>hostname debian10
+# $>hostname
+# debian10

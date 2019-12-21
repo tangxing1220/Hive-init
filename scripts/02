@@ -1,0 +1,16 @@
+# 02. Write a script which delete an ACTIVE user on the VM.
+#!/bin/bash
+GR='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m'
+
+echo -e "${RED}Enter the user you want to delete${NC}"
+read user
+
+if sudo userdel -fr $user ; then
+	echo -e "${GR}Done!${NC}"
+else
+	echo -e "${RED}Choose active user from the list below.\nIf there is none, means there's no active users${NC}"
+	cat /etc/passwd | grep '100.*.home' | awk -F: '{print "\033[0;32m" $1 "\033[0m";}'
+fi
+#!/bin/bash $OUT

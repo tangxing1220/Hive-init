@@ -1,0 +1,7 @@
+# 03. What file has to be modified to make it permanent?(RED)
+#
+#/etc/hostname
+#
+# The change of using command of hostname is temporary.
+# you have to change the name in /etc/hostname if you 
+# want to change permanently the name.  

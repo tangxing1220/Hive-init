@@ -1,0 +1,7 @@
+# 04. Identify the default gateway in the routing table.(BLUE)
+
+netstat -nr | grep default | awk '{print $2}'
+
+# man netstat: show network status
+# -n Show network addressas numbers;
+# -r show the routing tables.

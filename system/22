@@ -1,0 +1,5 @@
+# 22.Find the command that add a new local user(BLUE)
+
+sudo adduser zijing
+
+# man adduser: add a user to the system

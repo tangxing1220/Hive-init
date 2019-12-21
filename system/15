@@ -1,0 +1,7 @@
+# 15. Find the command that kills the background command's process(BLUE)
+
+pkill tail
+
+# man kill: send a signal to a process. 
+# man pkill: to kill a program by specifying the full name or partial name.
+# kill <pid>: or kill a process through the PID.

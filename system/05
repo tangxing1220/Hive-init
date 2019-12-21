@@ -1,0 +1,10 @@
+# 05. Name the command that determines the state of the SSH service.(BLUE) 
+
+sudo service ssh status
+
+# SSH service: Secure SHell. It is a cryptographic network protocol for operation network
+# services securely over an unsecured network.
+# install SSH server:
+# apt-get install openssh-server
+# sudo service ssh start
+# sudo service ssh stop

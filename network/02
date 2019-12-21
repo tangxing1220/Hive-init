@@ -1,0 +1,28 @@
+# 02. Identify and display the Ethernet interface characteristics:(BLUE)
+#     (a) Identify broadcast address
+# Two character prefixes based on the type of interface:
+# Prefix	Type of interface
+#	en		ethernet
+#	sl		serial line IP(slip)(Internet Protocol)
+#	wl		wlan(wireless local area network)
+#	ww		wwan(wireless wide area network)
+
+ipconfig getifaddr en0
+
+# man ipconfig:view and control IP configuration state.
+# getifaddr interface-name: Prints to standard output the IP address
+# for the first network service associated with the given interface.
+# Other answer:
+# #
+# ifconfig en0 | grep 'inet ' | awk '{print $2}'
+#
+# ifconfig en0 displays information about en0 interface.
+# grep 'inet ' prints lines which contain 'inet;
+# awk '{print $2}' prints only second column from the input field.
+#
+#     (b) Identify all IP address with are part of the same subnet
+
+arp -a
+
+# man arp: address resolution display and control.
+# -a: The program displays or deltes all of the current ARP entries. 

@@ -1,0 +1,8 @@
+# 09. What command lets you know who is connected to the Systemi?(BLUE)
+
+who
+
+# man who: display who is logged in
+# for example:
+# xtang tty2	2019-12-18 16:26 (tty2)
+# tty2 means virtual terminal

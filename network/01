@@ -1,0 +1,12 @@
+# 01. Get the list of the network interfaces of the machine without displaying and detail
+#     for these interfaces. Only the list of names.(BLUE)
+
+ifconfig -l
+
+# man ifconfig: configure network interface parameters. 
+# It is used to assign an address to a network interface and/or
+# configure network interface parameters.
+# The -l flag may be used to list all available interfaces on the system,
+# with no other additional information. 
+# -l is mutually exclusive with all other flags and commands,
+# except for -d and -u. 

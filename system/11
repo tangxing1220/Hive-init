@@ -1,0 +1,8 @@
+# 11. Name the command that displays the available space left and used on the system
+#      in an humanly understandable way.
+
+df -h --total
+
+# man df: report file system disk space usage
+# -h, --human-readable --print sizes in powers of 1024(e.g. 1023M)
+# --total  elide all entries insignificant to available space, and produce a grand total.

@@ -1,0 +1,5 @@
+# 21. List all real users on the VM(BLUE)
+
+awk -F: '$3 >= 1000 && $3 < 60000 && $1 != "nobody" {print $1}' /etc/passwd
+
+# cat /etc/passwd | grep '100.*.home' | awk -F: '{print $1}'cat

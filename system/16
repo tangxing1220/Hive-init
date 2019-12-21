@@ -1,0 +1,7 @@
+# 16. Find the service which makes it possible to run specific tasks following a regular
+#      schedule(RED)
+#
+# Step 1: root%debian:/etc/init.d# sudo service cron start
+# 	   2: root%debian:/etc/init.d# sudo service cron status
+#	   3: crontab -e	  
+#	       35 * * * * /bin/echo 'date' > /dev/console 

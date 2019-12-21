@@ -1,0 +1,11 @@
+# 08. Find the provider of slash16.org(RED)
+# 
+# At first we need to find out IP address of slash16.org.
+# 
+# host slash16 or nslookup slash16.org can provie this information to us. 
+# 
+# We can use whois 52.84.197.139 in Terminal to find out the provider by
+# IP address. 
+# or we can use online servide ipinfo.io in brower.
+# 
+# The provided information is the same - Provider:Amazon.

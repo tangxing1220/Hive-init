@@ -1,0 +1,8 @@
+# 14. Run the 'tail -f /var/log/syslog' command in background(BLUE)
+
+tail -f /var/log/syslog &
+
+# using command & : If you want to push a command into the background
+# It comes with catch, though. It doesn't disconnect the command away
+# from you; it just push it in the background so you can continue using
+# a terminal.

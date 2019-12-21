@@ -1,0 +1,27 @@
+# 11. Use the output of the previous command to find the name and IP address of the device
+#     that makes the link between you (local network) and the outside world (RED)
+#
+# The name and IP address of the device is 10.60.1.1  name nat.hive.fi
+#
+# [xtang@c2r1p3]/etc>traceroute slash16.org
+# traceroute: Warning: slash16.org has multiple addresses; using 13.33.242.31
+# traceroute to slash16.org (13.33.242.31), 64 hops max, 52 byte packets
+# 1  10.12.254.254 (10.12.254.254)  0.880 ms  0.540 ms  0.464 ms
+# 2  nat (10.60.1.1)  0.214 ms  0.194 ms  0.217 ms
+# 3  194.136.126.33 (194.136.126.33)  0.795 ms  1.154 ms  0.713 ms
+# 4  10.234.98.109 (10.234.98.109)  0.455 ms  0.409 ms  0.541 ms
+# 5  193.229.29.206 (193.229.29.206)  0.905 ms  0.770 ms  0.711 ms
+# 6  213.192.186.81 (213.192.186.81)  0.530 ms  0.837 ms  0.544 ms
+# 7  99.82.183.10 (99.82.183.10)  0.841 ms  1.006 ms  0.871 ms
+# 8  52.93.81.24 (52.93.81.24)  1.705 ms
+#    52.93.81.88 (52.93.81.88)  2.213 ms
+#    52.93.81.120 (52.93.81.120)  1.880 ms
+# 9  52.93.104.55 (52.93.104.55)  1.462 ms
+#    52.93.104.51 (52.93.104.51)  0.969 ms
+#    52.93.104.59 (52.93.104.59)  7.150 ms
+# 10  * * *
+# 11  * * *
+# 12  * * *
+# 13  * * *
+# 14  * * *
+# 15  server-13-33-242-31.hel50.r.cloudfront.net (13.33.242.31)  0.845 ms  0.893 ms  0.904 ms

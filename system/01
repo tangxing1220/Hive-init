@@ -1,0 +1,8 @@
+# 01. In what file can you find the installed version of Debian? (RED)
+#
+# /etc/debian_version
+#
+# The version of Debian is in file /etc/debian_version.
+# You can use the following command to show it.
+# $> cat /etc/debian_version
+# 10.2 

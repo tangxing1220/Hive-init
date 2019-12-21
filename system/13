@@ -1,0 +1,8 @@
+# 13. Name the command that find , in real time, currently running processes(BLUE)
+
+top
+
+# man top: display and update sorted information
+# The top program periodically displays a sorted list of system processes.
+# The default sorting key is pid, but other keys can be used instead.
+# Various output options are available.

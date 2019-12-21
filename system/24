@@ -1,0 +1,7 @@
+# 24. Find the command that list all packages(BLUE)
+
+apt list --installed
+
+# man apt:command-line interface.
+# list is somewhat similar to dpky-query -- list in that it can display a list of packages 
+# satisfying certain criteria.(-- installed, -- upgradeable, --all-versions)

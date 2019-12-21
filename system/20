@@ -1,0 +1,7 @@
+# 20. List all existing  users on the VM(BLUE)
+
+# cat /etc/passwd | awk -F: '{print $1}
+
+awk -F: '{print $1}' /etc/passwd
+
+# man passwd: change user password. So passwd file keeps all real users

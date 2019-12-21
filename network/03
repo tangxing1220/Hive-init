@@ -1,0 +1,5 @@
+# 03. Identify the MAC address of the Wi-Fi card(BLUE)
+
+ifconfig en1 | grep ether | awk '{print $2}'
+
+# man ifconfig

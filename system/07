@@ -1,0 +1,6 @@
+# 07.Figure out the PID of the SSHD service.(BLUE)
+
+cat /var/run/sshd.pid
+
+# example:
+# 2561
